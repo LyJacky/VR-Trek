@@ -1,0 +1,187 @@
+{
+    "name": "CustomController",
+    "maps": [
+        {
+            "name": "Custom Controller",
+            "id": "fb26cc3a-73e6-4a07-8d18-04af185aa018",
+            "actions": [
+                {
+                    "name": "PrimaryButton",
+                    "type": "Button",
+                    "id": "30e51b8a-8fe1-4849-bf95-50dc7bbba521",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "SecondaryButton",
+                    "type": "Button",
+                    "id": "2d7f0d71-e36a-4bf7-8723-6ecb68bc2521",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "TriggerPressed",
+                    "type": "Value",
+                    "id": "e5b902ca-0b8f-4e10-abf4-6bd724b43c5b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "GripPressed",
+                    "type": "Value",
+                    "id": "d5d63127-577f-4d06-9f38-806611bc4c52",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "DevRotation",
+                    "type": "Value",
+                    "id": "30430180-9ecb-4a1c-9766-75521713a90c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "MenuButton",
+                    "type": "Button",
+                    "id": "05925e3c-57f5-438b-af86-e667b1ca3001",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Joystick",
+                    "type": "Value",
+                    "id": "d26feaa0-2061-47f9-9867-63dd98d24e2c",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "db621b36-e628-4224-9707-d6370f2e90e7",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PrimaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "735e7e3a-1dcd-447e-8fe9-b7540aa78ff7",
+                    "path": "<XRController>{RightHand}/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a00bfeb0-2d7d-4ba0-ac3b-b559d2309b6d",
+                    "path": "<XRController>{RightHand}/deviceRotation/x",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DevRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "fe182af9-4fa6-4ed9-a3f8-57a6d28e2ca0",
+                    "path": "<XRController>{RightHand}/deviceRotation/y",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DevRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "040d0581-3af1-4c00-bf8f-347b3990defc",
+                    "path": "<XRController>{RightHand}/deviceRotation/z",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DevRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "989e282c-616e-46b3-8cb9-a961fd0a1f6d",
+                    "path": "<XRController>{RightHand}/deviceRotation/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DevRotation",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "2f6116a1-4ff3-4aeb-8c2a-4912c2764f5a",
+                    "path": "<XRController>{RightHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "SecondaryButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "426352aa-aad7-4226-a1a1-693436ff7371",
+                    "path": "<XRController>{RightHand}/grip",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GripPressed",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "57e03304-90be-483d-878f-82f4c0489826",
+                    "path": "<XRController>{RightHand}/menuButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "MenuButton",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "f932d3c6-f9e9-4909-85fa-4727d9dd79d2",
+                    "path": "<XRController>{RightHand}/primary2DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Joystick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

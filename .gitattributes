@@ -1,2 +1,11 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+*.FBX filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*/Chromium[[:space:]]Embedded[[:space:]]Framework filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.tif filter=lfs diff=lfs merge=lfs -text
+*/ArtifactDB filter=lfs diff=lfs merge=lfs -text
+*/Assets/External/ZFBrowser/Plugins/m64/BrowserLib.app/Contents/Frameworks/Chromium[[:space:]]Embedded[[:space:]]Framework.framework/Chromium[[:space:]]Embedded[[:space:]]Framework filter=lfs diff=lfs merge=lfs -text
+Assets/External/ZFBrowser/Plugins/m64/BrowserLib.app/Contents/Frameworks/Chromium[[:space:]]Embedded[[:space:]]Framework.framework/Chromium[[:space:]]Embedded[[:space:]]Framework filter=lfs diff=lfs merge=lfs -text
